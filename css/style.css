@@ -1,3 +1,5 @@
+/* ** F O N T S ** */
+
 @font-face {
     font-family: Gotham;
     src: url(../fonts/GothamBold.otf);
@@ -28,6 +30,18 @@
     font-weight: bold;
 } 
 
+/* C O L O R S 
 
+RED
+#D35266
+
+GREY
+#888888
+
+BLACK
+#383838 
+
+*/ 
 h1 {
+    color: #383838;
 }
