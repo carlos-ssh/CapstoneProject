@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/GothamBold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Gotham-Light;
+    src: url(../fonts/GothamLight.otf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Helvetica-Bold;
+    src: url(../fonts/HelveticaBold.ttf);
+    font-weight: bold;
+} 
+
+@font-face {
+    font-family: Helvetica-Light;
+    src: url(../fonts/HelveticaLight.ttf);
+    font-weight: bold;
+} 
+
+@font-face {
+    font-family: Helvetica-Medium;
+    src: url(../fonts/HelveticaMedium.ttf);
+    font-weight: bold;
+} 
+
+
+h1 {
+}
