@@ -192,6 +192,24 @@ h2{
       display: none;
   }
 
+  .arrivals {
+    height: 120px;
+    width: 100%;
+    -webkit-box-shadow: inset -1px 3px 60px 21px rgba(0,0,0,0.42);
+    -moz-box-shadow: inset -1px 3px 60px 21px rgba(0,0,0,0.42);
+    box-shadow: inset -1px 3px 60px 21px rgba(0,0,0,0.85);
+  }
+
+  .arrivals h2{
+      padding-top: 30px !important;
+      font-size: 55px;
+      font-family: Gotham;
+  }
+
+  .shure1 {
+      height: 120px !important;
+      width: 60px !important;
+  }
 
 
 /* Media Queries */
@@ -244,3 +262,112 @@ h2{
     transform: scale(1.2);
     border-radius: 12px;
  }
+
+ .arrivals h2:hover {
+     color: #D35266;
+ }
+
+ .button-danger:hover{
+     background-color: #888888;
+ }
+
+
+
+
+
+
+
+ .register-photo {
+    background: #d35266;
+    padding: 80px 0
+}
+
+@media (max-width: 576px) {
+    .register-photo .image-holder {
+        display: table-cell;
+        width: auto;
+        background-size: cover;
+        display: none !important
+    }
+}
+
+.register-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    background-image: url(https://github.com/carlos-ssh/CapstoneProject/blob/master/resources/subscribe.jpg);
+    background-size: cover;
+}
+
+.register-photo .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.register-photo form {
+    display: table-cell;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    color: #505e6c
+}
+
+@media (max-width:991px) {
+    .register-photo form {
+        padding: 40px
+    }
+}
+
+.register-photo form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px
+}
+
+.register-photo form .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 6px;
+    height: 40px
+}
+
+.register-photo form .form-check {
+    font-size: 13px;
+    line-height: 20px
+}
+
+.register-photo form .btn-primary {
+    background: #8E24AA;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 35px;
+    text-shadow: none;
+    outline: none !important
+}
+
+.register-photo form .btn-primary:hover,
+.register-photo form .btn-primary:active {
+    background: #8E24AA
+}
+
+.register-photo form .btn-primary:active {
+    transform: translateY(1px)
+}
+
+.register-photo form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none
+}
