@@ -349,7 +349,7 @@ a:hover {
 }
 
 .site-footer {
-  background-color:#26272b;
+  background-color:#d35266;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -450,16 +450,16 @@ a:hover {
   font-size:14px;
 }
 .social-icons a.facebook:hover {
-  background-color:#3b5998;
+  background-color:#d35266;
 }
 .social-icons a.twitter:hover {
-  background-color:#00aced;
+  background-color:#d35266;
 }
 .social-icons a.linkedin:hover {
-  background-color:#007bb6;
+  background-color:#d35266;
 }
 .social-icons a.dribbble:hover {
-  background-color:#ea4c89;
+  background-color:#d35266;
 }
 
 /* Contact Form*/
@@ -468,7 +468,7 @@ a:hover {
   padding: 45px 0;
 }
 .section-dark {
-  background-color: #f9f9f9;
+  background-color: #383838;
   z-index: -2;
 }
 .form-control,
