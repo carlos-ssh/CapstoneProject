@@ -382,12 +382,14 @@ a {
   z-index: -2;
 }
 
-.form-control,
-.form-group .form-control {
-  background-color: #383838;
+.form-yeah,
+.acza input {
+  background-color: #383838 !important;
+  color: #d35266 !important;
+  font-weight: bold;
 }
 
-.form-group .help-block {
+.form-yeah .help-block {
   position: absolute;
   display: none;
 }
