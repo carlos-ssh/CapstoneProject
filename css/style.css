@@ -85,6 +85,16 @@ svg {
     transition: transform .2s;
 }
 
+/*Grid Items*/
+.container-features1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 
 /*Carousel Brands*/
 
@@ -1010,15 +1020,17 @@ select.form-control[multiple] {
   transition: all 0.3s ease-in-out;
 }
 
-#contactForm {
+.contactForm {
   margin-top: -10px;
 }
 
-#contactForm .form-group label.control-label {
+.contactForm .form-group label.control-label {
   color: #8c8c8c;
 }
 
-#contactForm .form-control {
+.contactForm .form-control {
   font-weight: 500;
   height: auto;
 }
+
+/* rounded images */
