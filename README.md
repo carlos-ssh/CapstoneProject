@@ -1,4 +1,4 @@
-# Using Bootstrap (NewsWeekClone)
+# Front End Capstone Project
 
 ![screenshot](mockup-cr.png)
 
