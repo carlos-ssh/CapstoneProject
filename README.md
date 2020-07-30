@@ -15,7 +15,7 @@ I'm able to hear about your suggestions!!! :D
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/carlos-ssh/newsweek/f445e12eb690b2de6c6843bb6fc95df5421fc8b4/index.html)
+[Live Demo Link](https://rawcdn.githack.com/carlos-ssh/CapstoneProject/19e09b4044d5d49b36eace27b72073a8be3e65fb/index.html)
 
 ## Author
 
