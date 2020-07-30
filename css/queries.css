@@ -31,17 +31,13 @@
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 176px) { 
+@media (min-width: 576px) { 
     .carousel-inner {
         width: 100%;
-        height: 200px !important;
+        height: auto;
         transition: box-shadow 2s, transform 500ms, filter 500ms ease-in-out; 
     }
 
-    .carr0 {
-        margin-bottom: 800px !important;
-
-    }
     .register-photo .image-holder {
         display: table-cell;
         width: auto;
@@ -60,7 +56,7 @@
     }
 
     .arrivals {
-        height: 60px;
+        height: auto;
         width: 100%;
         box-shadow: inset -1px 3px 60px 21px rgba(0,0,0,0.25);
     }
@@ -71,24 +67,22 @@
     }
 
     .arrivals1 h2{
-      padding-top: 10px !important;
       font-size: 40px;
       font-family: Gotham;
     }
     
     .arrivals h2{
-        padding-top: 10px !important;
-        font-size: 40px;
+        font-size: 35px;
         font-family: Gotham;
     }
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
+@media (min-width: 768px) and (max-width: 991px){ 
 
     .carousel-inner {
         width: 100%;
-        height: 450px !important;
+        min-width: 768px;
     }
 
     .carousel-caption h5 {
@@ -120,7 +114,6 @@
 
     .carousel-inner {
         width: 100%;
-        height: 600px !important;
     }
     .card1 {
         width: 100%;
@@ -147,7 +140,6 @@
 
     .carousel-inner {
         width: 100%;
-        height: 600px !important;
     }
  }
 
