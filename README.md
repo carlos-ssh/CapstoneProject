@@ -1,7 +1,5 @@
 # Using Bootstrap (NewsWeekClone)
 
-> Luciano and Carlos 7th project in HTML&CSS3 module.
-
 ![screenshot](mockup-cr.png)
 
 Ey! 
