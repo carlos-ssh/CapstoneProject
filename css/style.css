@@ -23,7 +23,6 @@ textarea {
 	border: none;
 	border-bottom: 1px solid #f3e5f5;
 	border-radius: 0;
-	box-sizing: border-box;
 	color: #000;
 	font-size: 18px;
 	font-weight: 300;
@@ -37,7 +36,7 @@ nav a {
 .bg-danger {
 	background-color: #d35266;
 }
-.carousel-item h1,
+.carousel-item,
 .text-danger {
 	color: #d35266;
 	font-family: gotham, Arial, Helvetica, sans-serif;
@@ -58,11 +57,8 @@ nav a {
 .arrivals1 {
 	box-shadow: inset -1px 3px 60px 21px rgba(0, 0, 0, 0.25);
 	height: 120px;
-	width: 100%;
-}
-.arrivals h2,
-.arrivals1 h2 {
-	font-family: gotham, Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-family: gotham, Arial, Helvetica, sans-serif;
 	font-size: 40px;
 	padding-top: 15px;
 }
@@ -80,10 +76,10 @@ nav a {
 	font-weight: bold;
 	height: 150px;
 	line-height: 150px;
-	margin-top: 10px;
-	padding: 5px;
+	margin: 10px;
 	text-align: center;
-	width: 200px;
+  width: 200px;
+  
 }
 .feat-div img {
 	height: 120px;
@@ -118,10 +114,7 @@ nav a {
 	padding: 0;
 	position: relative;
 }
-.slick-list:focus {
-	outline: none;
-}
-.slick-list.dragging {
+.slick-list .dragging {
 	cursor: hand;
 	cursor: pointer;
 }
@@ -150,7 +143,7 @@ nav a {
 .slick-loading img {
 	display: none;
 }
-.slick-slide.dragging img {
+.slick-slide .dragging img {
 	pointer-events: none;
 }
 .slick-initialized .slick-slide {
@@ -178,10 +171,8 @@ nav a {
 	background-color: #fff;
 	color: #505e6c;
 	display: table-cell;
-	padding: 40px 60px;
-	width: 400px;
 }
-.register-photo form h2 {
+.register-photo form{
 	font-size: 24px;
 	line-height: 1.5;
 	margin-bottom: 30px;
@@ -251,9 +242,6 @@ button:focus {
 	border-top-color: #bbb;
 	opacity: 0.5;
 }
-.site-footer hr.small {
-	margin: 20px 0;
-}
 .site-footer a {
 	color: #838383;
 }
@@ -305,12 +293,4 @@ button:focus {
 .footer-links a:hover {
 	color: #d32f2f;
 	text-decoration: none;
-}
-.form-group.label-static label.control-label,
-.form-group.label-floating.is-focused label.control-label,
-.form-group.label-floating:not(.is-empty) label.control-label {
-	font-size: 12px;
-	left: 0;
-	line-height: 1.07142857;
-	top: -30px;
 }
