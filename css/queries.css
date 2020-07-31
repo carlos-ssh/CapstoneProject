@@ -1,155 +1,154 @@
-@font-face {
-  font-family: Gotham;
-  src: url(../fonts/GothamBold.otf);
-  font-weight: bold;
+@font-face
+{
+	font-family: Gotham;
+	font-weight: bold;
+	src: url(../fonts/GothamBold.otf);
 }
-
-@font-face {
-  font-family: Gotham-Light;
-  src: url(../fonts/GothamLight.otf);
-  font-weight: lighter;
+@font-face
+{
+	font-family: Gotham-Light;
+	font-weight: lighter;
+	src: url(../fonts/GothamLight.otf);
 }
-
-@font-face {
-  font-family: Helvetica-Bold;
-  src: url(../fonts/HelveticaBold.ttf);
-  font-weight: bold;
+@font-face
+{
+	font-family: Helvetica-Bold;
+	font-weight: bold;
+	src: url(../fonts/HelveticaBold.ttf);
 }
-
-@font-face {
-  font-family: Helvetica-Light;
-  src: url(../fonts/HelveticaLight.ttf);
-  font-weight: bold;
+@font-face
+{
+	font-family: Helvetica-Light;
+	font-weight: bold;
+	src: url(../fonts/HelveticaLight.ttf);
 }
-
-@font-face {
-  font-family: Helvetica-Medium;
-  src: url(../fonts/HelveticaMedium.ttf);
-  font-weight: bold;
+@font-face
+{
+	font-family: Helvetica-Medium;
+	font-weight: bold;
+	src: url(../fonts/HelveticaMedium.ttf);
 }
-
-/* Media Queries */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .carousel-inner {
-    width: 100%;
-    height: auto;
-    transition: box-shadow 2s, transform 500ms, filter 500ms ease-in-out;
-  }
-
-  .register-photo .image-holder {
-    display: table-cell;
-    width: auto;
-    background-size: cover;
-    max-width: 576px;
-  }
-
-  .container {
-    padding: 10px !important;
-    max-width: 768px;
-  }
-
-  .card2 {
-    height: 400px;
-    max-width: 768px;
-  }
-
-  .arrivals {
-    height: auto;
-    width: 100%;
-    box-shadow: inset -1px 3px 60px 21px rgba(0, 0, 0, 0.25);
-  }
-
-  .arrivals1 {
-    height: 120px;
-    width: 100%;
-    box-shadow: inset -1px 3px 60px 21px rgba(0, 0, 0, 0.25);
-  }
-
-  .arrivals h2,
-  .arrivals1 h2 {
-    font-size: 40px;
-    font-family: "Gotham", Arial, Helvetica, sans-serif;
-  }
+@media (min-width: 576px)
+{
+	.carousel-inner
+	{
+		height: auto;
+		transition: box-shadow 2s, transform 500ms, filter 500ms ease-in-out;
+		width: 100%;
+	}
+	.register-photo .image-holder
+	{
+		background-size: cover;
+		display: table-cell;
+		max-width: 576px;
+		width: auto;
+	}
+	.container
+	{
+		max-width: 768px;
+		padding: 10px !important;
+	}
+	.card2
+	{
+		height: 400px;
+		max-width: 768px;
+	}
+	.arrivals
+	{
+		box-shadow: inset -1px 3px 60px 21px rgba(0, 0, 0, 0.25);
+		height: auto;
+		width: 100%;
+	}
+	.arrivals1
+	{
+		box-shadow: inset -1px 3px 60px 21px rgba(0, 0, 0, 0.25);
+		height: 120px;
+		width: 100%;
+	}
+	.arrivals h2,
+	 .arrivals1 h2
+	{
+		font-family: "Gotham", Arial, Helvetica, sans-serif;
+		font-size: 40px;
+	}
 }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-  .carousel-inner {
-    width: 100%;
-    min-width: 768px;
-  }
-
-  .carousel-caption h5 {
-    padding-top: 800px;
-  }
-
-  .register-photo form {
-    padding: 40px;
-    max-width: 991px;
-  }
-
-  .social-icons li.title {
-    display: block;
-    margin-right: 0;
-    font-weight: 600;
-  }
-
-  .site-footer {
-    padding-bottom: 0;
-  }
-
-  .site-footer .copyright-text,
-  .site-footer .social-icons {
-    text-align: center;
-  }
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.carousel-inner
+	{
+		min-width: 768px;
+		width: 100%;
+	}
+	.carousel-caption h5
+	{
+		padding-top: 800px;
+	}
+	.register-photo form
+	{
+		max-width: 991px;
+		padding: 40px;
+	}
+	.social-icons li.title
+	{
+		display: block;
+		font-weight: 600;
+		margin-right: 0;
+	}
+	.site-footer
+	{
+		padding-bottom: 0;
+	}
+	.site-footer .copyright-text,
+	 .site-footer .social-icons
+	{
+		text-align: center;
+	}
 }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .carousel-inner {
-    width: 100%;
-  }
-
-  .card1 {
-    width: 100%;
-    padding: 10px 30px;
-    max-width: 1200px;
-  }
-
-  .bottom {
-    position: relative;
-    max-width: 1200px;
-  }
-
-  .card2 {
-    width: 100%;
-    max-width: 1200px;
-  }
-
-  .site-footer [class^=col-] {
-    margin-bottom: 30px;
-  }
+@media (min-width: 992px)
+{
+	.carousel-inner
+	{
+		width: 100%;
+	}
+	.card1
+	{
+		max-width: 1200px;
+		padding: 10px 30px;
+		width: 100%;
+	}
+	.bottom
+	{
+		max-width: 1200px;
+		position: relative;
+	}
+	.card2
+	{
+		max-width: 1200px;
+		width: 100%;
+	}
+	.site-footer [class^=col-]
+	{
+		margin-bottom: 30px;
+	}
 }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .carousel-inner {
-    width: 100%;
-  }
+@media (min-width: 1200px)
+{
+	.carousel-inner
+	{
+		width: 100%;
+	}
 }
-
-.feat-div img:hover {
-  transform: scale(1.2);
-  border-radius: 12px;
-  box-shadow: 10px 10px 52px 0 rgba(0, 0, 0, 0.87);
+.feat-div img:hover
+{
+	border-radius: 12px;
+	box-shadow: 10px 10px 52px 0 rgba(0, 0, 0, 0.87);
+	transform: scale(1.2);
 }
-
-.arrivals h2:hover {
-  color: #888;
+.arrivals h2:hover
+{
+	color: #888;
 }
-
-.button-danger:hover {
-  background-color: #888;
+.button-danger:hover
+{
+	background-color: #888;
 }
