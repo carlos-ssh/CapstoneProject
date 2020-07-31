@@ -154,8 +154,8 @@ nav a {
 }
 .register-photo {
   background: #d35266;
-  box-shadow: 30px 10px 50px rgba(0, 0, 0, 0.6);
   background-image: url(../resources/subscribe.jpg); 
+  box-shadow: 30px 10px 50px rgba(0, 0, 0, 0.6);
   padding: 80px 0;	
 }
 button:focus {
