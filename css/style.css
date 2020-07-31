@@ -46,7 +46,7 @@ h5 {
 }
 
 svg {
-  color: #d35266 !important;
+  color: #d35266;
 }
 
 p {
@@ -61,14 +61,14 @@ a {
 input,
 textarea {
   background-color: #f3e5f5;
-  padding: 8px 0 8px 0 !important;
+  padding: 8px 0 8px 0;
   width: 100%;
-  border-radius: 0 !important;
+  border-radius: 0;
   box-sizing: border-box;
-  border: none !important;
-  border-bottom: 1px solid #f3e5f5 !important;
-  font-size: 18px !important;
-  color: #000 !important;
+  border: none;
+  border-bottom: 1px solid #f3e5f5;
+  font-size: 18px;
+  color: #000;
   font-weight: 300;
 }
 
@@ -100,7 +100,7 @@ nav a {
 }
 
 .carousel-item img {
-  filter: blur(1px) !important;
+  filter: blur(1px);
 }
 
 .arrivals,
@@ -112,7 +112,7 @@ nav a {
 
 .arrivals h2,
 .arrivals1 h2 {
-  padding-top: 15px !important;
+  padding-top: 15px;
   font-size: 40px;
   font-family: gotham, Arial, Helvetica, sans-serif;
 }
@@ -275,18 +275,18 @@ nav a {
 
 input:focus,
 textarea:focus {
-  -moz-box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-  border-bottom: 1px solid #d35266 !important;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #d35266;
   outline-width: 0;
   font-weight: 400;
 }
 
 button:focus {
-  -moz-box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
   outline-width: 0;
 }
 
@@ -379,8 +379,8 @@ button:focus {
 
 .form-yeah,
 .acza input {
-  background-color: #383838 !important;
-  color: #d35266 !important;
+  background-color: #383838;
+  color: #d35266;
   font-weight: bold;
 }
 
