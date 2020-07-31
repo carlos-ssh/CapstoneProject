@@ -154,45 +154,9 @@ nav a {
 }
 .register-photo {
 	background: #d35266;
-	padding: 80px 0;
-}
-.register-photo .form-container {
-	background-image: url(../resources/subscribe.jpg);
+  padding: 80px 0;	
+  background-image: url(../resources/subscribe.jpg);
 	box-shadow: 30px 10px 50px rgba(0, 0, 0, 0.6);
-	display: flex;
-	height: auto;
-	margin: 0 auto;
-	max-width: 900px;
-	width: 70%;
-}
-.register-photo form {
-	background-color: #fff;
-	color: #505e6c;
-	display: table-cell;
-}
-.register-photo form{
-	font-size: 24px;
-	line-height: 1.5;
-	margin-bottom: 30px;
-}
-.register-photo form .form-check {
-	font-size: 13px;
-	line-height: 20px;
-}
-.register-photo form .already {
-	color: #6f7a85;
-	display: block;
-	font-size: 12px;
-	opacity: 0.9;
-	text-align: center;
-	text-decoration: none;
-}
-input:focus,
-textarea:focus {
-	border-bottom: 1px solid #d35266;
-	box-shadow: none;
-	font-weight: 400;
-	outline-width: 0;
 }
 button:focus {
 	box-shadow: none;
@@ -233,27 +197,14 @@ button:focus {
 	background-color: #d35266;
 	color: #737373;
 	font-size: 15px;
-	line-height: 24px;
 	padding: 45px 0 20px;
 }
-.site-footer hr {
-	border-top-color: #bbb;
-	opacity: 0.5;
-}
+
 .site-footer a {
 	color: #838383;
 }
 .footer-links {
 	list-style: none;
-	padding-left: 0;
-}
-.site-footer .social-icons {
-	text-align: right;
-}
-.social-icons li {
-	display: inline-block;
-	list-style: none;
-	margin-bottom: 4px;
 	padding-left: 0;
 }
 .section-dark {

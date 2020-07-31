@@ -71,7 +71,7 @@
 
     <!--New Arrivals-->
     <div class="bg-danger mt-1 mb-5 arrivals h-50">
-      <h2 class=" arrivals-txt text-white">NEW ARRIVALS</h2>
+      <h2 class=" arrivals-txt text-white font-weight-bold">NEW ARRIVALS</h2>
     </div>
 
     <!--New Arraival Items-->
@@ -177,7 +177,7 @@
 
     <!--Hot Sale-->
     <div class="bg-danger mt-1 mb-5 arrivals h-50">
-        <h2 class=" arrivals-txt text-white">HOT SALE !!!</h2>
+        <h2 class=" arrivals-txt text-white font-weight-bold">HOT SALE !!!</h2>
     </div>
 
     <div class="container-fluid flex-wrap flex-sm-row col-sm-12 my-sm-5">
@@ -250,8 +250,8 @@
     </div>
 
     <!--Featured Instruments-->
-    <div class="pt-sm-4 mt-md-5 bg-danger arrivals1 pb-xs-5 fourth" id="Instruments">
-        <h2 class="text-white"> <a href=""></a> FEATURED INSTRUMENTS</h2>
+    <div class=" pt-sm-4 mt-md-5 bg-danger arrivals1 pb-xs-5 fourth" id="Instruments">
+        <h2 class="pt-5 pt-md-3 text-white font-weight-bold"> <a href=""></a> FEATURED INSTRUMENTS</h2>
     </div>
     <div class="mb-sm-5">
         <ol class="my-xs-5 mb-md-5 container-features">
@@ -271,43 +271,51 @@
     </div>
 
     <!--Subscribe-->
-    <div class="register-photo col-12">
-        <div class="form-container ">
-            <div class="image-holder"></div>
-            <form class="container px-3">
-                <h2 class="text-center rounded-pill"><strong>Subscribe</strong> to our Newsletter</h2>
-                <div class="form-group1">
-                  <input class="form-control1" type="email" name="email" placeholder="Email">
-                </div>
-                
-                <div class="form-group my-4 mx-5"><button class="btn btn-danger btn-block">SEND</button></div>
+    <div class="register-photo col-12 rounded">
+        <div class="container rounded form-container bg-white col-8">
+            <form class="container col-8 mx-auto">
+              <h2 class="text-center"><strong>Subscribe</strong> to our Newsletter</h2>
+              <input class="form-control1 d-inline-block align-middle rounded" type="email" name="email" placeholder="Email">
+                  <button class="btn btn-danger btn-block d-inline-block align-middle my-4">SEND</button>
             </form>
         </div>
     </div>
 
     <!--This is the brands carousel-->
-    <div class="container-fluid brands arrivals2">
-        <h2 class="text-danger arrivals2 font-weight-bold">OUR BRANDS</h2>
-         <div class="customer-logos slider my-5">
-            <div class="slide"><img src="resources/blue.jpg" alt="great-images"></div>
-            <div class="slide"><img src="resources/casio.jpg" alt="great-images"></div>
-            <div class="slide"><img src="resources/daddario.jpg" alt="great-images"></div>
-            <div class="slide"><img src="resources/epiphone.jpg" alt="great-images"></div>
-            <div class="slide"><img src="resources/fender.jpg" alt="great-images"></div>
-            <div class="slide"><img src="resources/line6.jpg" alt="great-images"></div>
-            <div class="slide"><img src="resources/mackie.jpg" alt="great-images"></div>
-            <div class="slide"><img src="resources/masrshall.jpg" alt="great-images"></div>
-            <div class="slide"><img src="resources/numark.jpg" alt="great-images"></div>
-            <div class="slide"><img src="resources/shure.jpg" alt="great-images"></div>
-            <div class="slide"><img src="resources/yamaha.jpg" alt="great-images"></div>
-            <div class="slide"><img src="resources/zildjan.jpg" alt="great-images"></div>
-         </div>
-         <hr>
-    </div>
-   
+    <div class="container-fluid text-center my-5">
+      <h3 class="font-weight-bold text-danger">Our Brands</h3>
+      <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+          <div class="carousel-inner w-100" role="listbox">
+              <div class="carousel-item row no-gutters active">
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/blue.jpg"></div>
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/casio.jpg"></div>
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/daddario.jpg"></div>
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/epiphone.jpg"></div>
+              </div>
+              <div class="carousel-item row no-gutters">
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/fender.jpg"></div>
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/zildjan.jpg"></div>
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/line6.jpg"></div>
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/mackie.jpg"></div>
+              </div>
+              <div class="carousel-item row no-gutters">
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/masrshall.jpg"></div>
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/numark.jpg"></div>
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/shure.jpg"></div>
+                  <div class="col-3 float-left mx-auto"><img class="img-fluid w-100 h-100 " src="resources/yamaha.jpg"></div>
+              </div>
+            </div>
+          <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+      </div>
      <!--COVID Message-->
-    
-     <div class="container mt-sm-5 roundeda">
+     <div class="container mt-sm-5 rounded my-5">
           <div class="card bg-danger rounded">
             <div class="card-body text-center">
               <h5 class="card-title text-white">A message to our community about COVID-19</h5>
@@ -365,89 +373,74 @@
     </section>
    
     <!-- Contact Us Section -->
-    <section class="container col-10 col-sm-10 mx-sm-auto Material-contact-section section-padding section-dark mb-sm-5 rounded" id="contact">
+    <section class="container rounded col-12 col-sm-8 mx-sm-auto col-md-10 mx-md-auto bg-dark" id="contact">
       <div class="container">
-          <div class="row">
+          <div class="">
               <!-- Section Titile -->
-              <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+              <div class="">
                   <h2 class="section-title text-danger text-center">Love to Hear From You</h2>
               </div>
-          </div>
-          <div class="row">
               <!-- Section Titile -->
-              <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+              <div class=" mt-3 contact-widget-section2 wow animated fadeInLeft text-left" data-wow-delay=".2s">
                 <p class="text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content.</p>
 
-                <div class="find-widget font-weight-bold text-white">
+                <div class="find-widget font-weight-bold text-white text-left">
                  Company:  <a class="text-danger" href="404.html">CR Music Store</a>
                 </div>
-                <div class="find-widget font-weight-bold text-white">
-                 Address: <a class="text-danger" href="404.html">Beverly Hills 90210</a>
+                <div class="find-widget font-weight-bold text-white text-left">
+                 Address: <a class="text-danger " href="404.html">Beverly Hills 90210</a>
                 </div>
-                <div class="find-widget font-weight-bold text-white">
-                  Phone:  <a class="text-danger" href="404.html">+ 877-990-6767</a>
+                <div class="find-widget font-weight-bold text-white text-left">
+                  Phone:  <a class="text-danger " href="404.html">+ 877-990-6767</a>
                 </div>
                 
-                <div class="find-widget font-weight-bold text-white">
+                <div class="find-widget font-weight-bold text-white text-left">
                   Website:  <a class="text-danger" href="404.html">www.crmusicstore.com</a>
                 </div>
-                <div class="find-widget font-weight-bold text-white">
+                <div class="find-widget font-weight-bold text-white text-left">
                    Program: <a class="text-danger" href="404.html">Mon to Sat: 09:30 AM - 10.30 PM</a>
                 </div>
               </div>
-              <!-- contact form -->
-              <div class="col-md-6 mt-5 acza">
-                  <form class="shake contactForm mt-5" method="post" name="contact-form" data-toggle="validator">
-                      <!-- Name -->
-                      <div class="form-group form-yeah label-floating mt-5">
-                        <label class="control-label text-white" for="name">Name</label>
-                        <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                      <!-- email -->
-                      <div class="form-group form-yeah label-floating">
-                        <label class="control-label text-white" for="email">Email</label>
-                        <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                      <!-- Subject -->
-                      <div class="form-group form-yeah label-floating">
-                        <label class="control-label text-white">Subject</label>
-                        <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                      <!-- Message -->
-                      <div class="form-group form-yeah label-floating">
-                          <label for="message" class="control-label text-white">Message</label>
-                          <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
-                          <div class="help-block with-errors"></div>
-                      </div>
-                      <!-- Form Submit -->
-                      <div class="form-submit my-5">
-                          <button class="btn btn-danger" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
-                          <div id="msgSubmit" class="h3 text-center hidden"></div>
-                          <div class="clearfix"></div>
-                      </div>
-                  </form>
-              </div>
           </div>
+      <!-- contact form -->
+      <form class="my-5">
+      <p class="text-left text-white pl-3" for="exampleFormControlInput1">Name</p>
+      <div class="form-group col">
+        <input type="text" class="form-control" placeholder="Your Name">
+      </div>
+      <div class="form-group col">
+        <p class="text-left text-white" for="exampleFormControlInput1">Email address</p>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group col">
+        <p class="text-left text-white" for="exampleFormControlInput1">Subject</p>
+        <input type="text" class="form-control" placeholder="Subject">
+      </div>
+      <div class="form-group col">
+        <p class="text-left text-white" for="exampleFormControlTextarea1">Example textarea</p>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div>
+        <button class="btn btn-danger btn-lg my-5">Send</button>
+      </div>
+      </form>
+              
       </div>
     </section>
-
     <!-- footer -->
-    <footer class="site-footer container-fluid mt-5"> 
-    <div class="container">
+    <footer class="container-fluid site-footer mt-5 mb-0 rounded"> 
+    <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12 col-md-6">
-          <h6 class="font-weight-bold  text-white">About</h6>
-          <p class="text-justify text-dark">CR Music Instruments <i>WANTS TO HAVE SIMPLE SOLUTIONS </i> 
+          <h6 class="font-weight-bold text-white text-left">About</h6>
+          <p class="text-justify text-dark mr-5">CR Music Instruments <i>WANTS TO HAVE SIMPLE SOLUTIONS </i> 
             From early in their lofty careers to up-to-the-moment tour support, music’s legends return for the tradition that is CR Music Experience. And like these artists, whether you visit the West Los Angeles, California location or online, you will experience the shop’s well-established reputation for combining friendly, home-style service and repair expertise with hand-picked artisan instruments and cutting-edge gear. Everyone receives star treatment at CR Music.
           </p>
         </div>
 
           <div class="col-xs-6 col-md-3">
-            <h6 class="font-weight-bold text-white">Categories</h6>
-            <ul class="footer-links text-dark">
+            <h6 class="font-weight-bold text-white text-left">Categories</h6>
+            <ul class="footer-links text-dark text-left">
               <li><a class="text-dark" href="#top">HOME</a></li>
               <li><a class="text-dark" href="shop.html">SHOP</a></li>
               <li><a class="text-dark" href="#Instruments">FEATURED INSTRUMENTS</a></li>
@@ -458,8 +451,8 @@
           </div>
 
           <div class="col-xs-6 col-md-3">
-            <h6 class="font-weight-bold text-white">Quick Links</h6>
-            <ul class="footer-links">
+            <h6 class="font-weight-bold text-left text-white">Quick Links</h6>
+            <ul class="footer-links text-left">
               <li><a class="text-dark" href="404.html">About Us</a></li>
               <li><a class="text-dark" href="404.html">Contact Us</a></li>
               <li><a class="text-dark" href="404.html">Work with Us</a></li>
@@ -515,4 +508,3 @@
     <script src="js/slick.js"></script>
 </body>
 </html>
-
