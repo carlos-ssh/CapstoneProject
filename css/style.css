@@ -203,15 +203,11 @@ textarea:focus {
 	border-bottom: 1px solid #d35266;
 	box-shadow: none;
 	font-weight: 400;
-	moz-box-shadow: none;
 	outline-width: 0;
-	webkit-box-shadow: none;
 }
 button:focus {
 	box-shadow: none;
-	moz-box-shadow: none;
 	outline-width: 0;
-	webkit-box-shadow: none;
 }
 .form-group {
 	margin: 28px 0 1.5rem 0;
@@ -258,13 +254,6 @@ button:focus {
 .site-footer hr.small {
 	margin: 20px 0;
 }
-.site-footer h6 {
-	color: #fff;
-	font-size: 16px;
-	letter-spacing: 2px;
-	margin-top: 5px;
-	text-transform: uppercase;
-}
 .site-footer a {
 	color: #838383;
 }
@@ -305,8 +294,8 @@ button:focus {
 .footer-links a {
 	color: #888;
 }
-.footer-links.inline li {
-	display: inline-block;
+.footer-links li {
+	display: list-item;
 }
 .fab,
 .btn-gray:hover,
