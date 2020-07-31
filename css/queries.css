@@ -1,6 +1,12 @@
 
 @media (min-width: 576px)
 {
+  h2
+	{
+		font-family: "Gotham", Arial, Helvetica, sans-serif;
+		font-size: 40px;
+	}
+
 	.carousel-inner
 	{
 		height: auto;
@@ -36,35 +42,27 @@
 		height: 120px;
 		width: 100%;
 	}
-	.arrivals h2,
-	 .arrivals1 h2
-	{
-		font-family: "Gotham", Arial, Helvetica, sans-serif;
-		font-size: 40px;
-	}
+
 }
 @media (min-width: 768px) and (max-width: 991px)
 {
+  h5
+	{
+		padding-top: 800px;
+	}
+
 	.carousel-inner
 	{
 		min-width: 768px;
 		width: 100%;
 	}
-	.carousel-caption h5
-	{
-		padding-top: 800px;
-	}
+
 	.register-photo form
 	{
 		max-width: 991px;
 		padding: 40px;
 	}
-	.social-icons li.title
-	{
-		display: block;
-		font-weight: 600;
-		margin-right: 0;
-	}
+
 	.site-footer
 	{
 		padding-bottom: 0;
@@ -81,12 +79,7 @@
 	{
 		width: 100%;
 	}
-	.card1
-	{
-		max-width: 1200px;
-		padding: 10px 30px;
-		width: 100%;
-	}
+
 	.bottom
 	{
 		max-width: 1200px;
@@ -97,10 +90,7 @@
 		max-width: 1200px;
 		width: 100%;
 	}
-	.site-footer [class^=col-]
-	{
-		margin-bottom: 30px;
-	}
+
 }
 @media (min-width: 1200px)
 {
@@ -115,11 +105,7 @@
 	box-shadow: 10px 10px 52px 0 rgba(0, 0, 0, 0.87);
 	transform: scale(1.2);
 }
-.arrivals h2:hover
+h2:hover
 {
 	color: #888;
-}
-.button-danger:hover
-{
-	background-color: #888;
 }
