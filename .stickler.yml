@@ -8,5 +8,6 @@ linters:
 files:
     ignore:
         - 'src/generated/*'
+        - 'src/js/*'
         - 'webroot/bower_components/*'
         - 'box-model,ids'
