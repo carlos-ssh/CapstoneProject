@@ -11,3 +11,6 @@ files:
         - 'src/js/*'
         - 'webroot/bower_components/*'
         - 'box-model,ids'
+
+fixers:
+    enable: true
