@@ -1,0 +1,16 @@
+---
+linters:
+    flake8:
+    eslint:
+        config: './eslint.config'
+    csslint:
+
+files:
+    ignore:
+        - 'src/generated/*'
+        - 'src/js/*'
+        - 'webroot/bower_components/*'
+        - 'box-model,ids'
+
+fixers:
+    enable: true
